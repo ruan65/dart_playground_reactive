@@ -1,7 +1,7 @@
-import 'package:simple_playground/simple_playground.dart';
+import 'package:simple_playground/streams/streams_playground.dart';
 
 main(List<String> arguments) {
-  
-  
-  greeting();
+//  simpleStreamExample();
+
+  broadcastStreamExample();
 }
