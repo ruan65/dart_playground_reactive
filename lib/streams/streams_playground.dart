@@ -35,10 +35,10 @@ void broadcastStreamExample() {
 
   ints.skip(100).take(15).forEach((i) => streamController.sink.add(i));
 
-//  subscription.cancel();
-//  subscription2.cancel();
-
   streamController.close();
+
+//  subscription2.cancel();
+//  subscription.cancel();
 
 
 }
