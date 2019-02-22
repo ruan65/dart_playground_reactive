@@ -18,10 +18,9 @@ void simpleStreamExample() {
   ints.take(11).forEach((i) => controller.sink.add(i));
 
   controller.close();
-
 }
 
-void broadcastStreamExample() {
+void broadcastStreamExample() async {
   final StreamController<int> streamController =
       StreamController<int>.broadcast();
 
@@ -29,16 +28,27 @@ void broadcastStreamExample() {
       .where((i) => i % 2 == 1)
       .listen((i) => print('odd num $i'));
 
-  final subscription2 = streamController.stream
-      .where((i) => i % 2 == 0)
-      .listen((i) => print('even num $i'));
+  final subscription2 =
+      streamController.stream.where((i) => i % 2 == 0).listen(evenNumPrinter);
+
+  final subscription3 =
+      streamController.stream.where((i) => i % 3 == 0).listen((i) {
+    print('nm devideable by 3: $i');
+  });
 
   ints.skip(100).take(15).forEach((i) => streamController.sink.add(i));
 
+  await Future.delayed(Duration(milliseconds: 500));
   streamController.close();
 
-//  subscription2.cancel();
-//  subscription.cancel();
+  subscription2.cancel();
+  subscription.cancel();
+}
 
+void printer(String message) {
+  print(message);
+}
 
+void evenNumPrinter(int i) {
+  printer('even num is: $i');
 }

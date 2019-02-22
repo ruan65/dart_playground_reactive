@@ -5,5 +5,6 @@ main(List<String> arguments) {
 //  simpleStreamExample();
 
 //  broadcastStreamExample();
-  playWithRx();
+//  playWithRx();
+  periodic();
 }
