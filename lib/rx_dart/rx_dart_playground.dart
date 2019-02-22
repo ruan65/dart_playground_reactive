@@ -3,12 +3,12 @@ import 'dart:async';
 import 'package:rxdart/rxdart.dart';
 
 void playWithRx() async {
-
   print("play rx");
 
   PublishSubject<int> publishSubject = new PublishSubject();
 
-  StreamSubscription<int> subscription = publishSubject.stream.listen((i) => print('int: $i'));
+  StreamSubscription<int> subscription =
+      publishSubject.stream.listen((i) => print('int: $i'));
 
   publishSubject.add(100);
 
@@ -23,10 +23,20 @@ void playWithRx() async {
 }
 
 void periodic() async {
-  Observable<String> timerObservable = Observable.periodic(Duration(seconds: 1), (i) => i.toString());
-  StreamSubscription subscription = timerObservable.listen(print);
+  Observable<String> timerObservable =
+      Observable.periodic(Duration(seconds: 1), (i) => i.toString());
 
-  await Future.delayed(Duration(seconds: 10));
+  timerObservable.take(7).doOnCancel(() {
+    print('doing on cancel!!!');
+  }).listen(print, onDone: () {
+    print('done...');
+  });
 
-  subscription.cancel();
+  Observable.fromFuture(asyncFun())
+      .doOnCancel(() => print('async cancelled'))
+      .listen(print);
+}
+
+Future<String> asyncFun() async {
+  return Future.delayed(Duration(milliseconds: 2500), () => 'Async result');
 }
