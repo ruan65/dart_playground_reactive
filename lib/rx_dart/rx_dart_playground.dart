@@ -22,9 +22,9 @@ void playWithRx() async {
   publishSubject.close();
 }
 
-void periodic() async {
+void periodic() {
   Observable<String> timerObservable =
-      Observable.periodic(Duration(seconds: 1), (i) => i.toString());
+      Observable.periodic(Duration(seconds: 1), (i) => (i+1).toString());
 
   timerObservable.take(7).doOnCancel(() {
     print('doing on cancel!!!');
@@ -32,11 +32,14 @@ void periodic() async {
     print('done...');
   });
 
-  Observable.fromFuture(asyncFun())
+  var observable = Observable.fromFuture(asyncFun());
+
+  observable
       .doOnCancel(() => print('async cancelled'))
       .listen(print);
+
 }
 
 Future<String> asyncFun() async {
-  return Future.delayed(Duration(milliseconds: 2500), () => 'Async result');
+  return Future.delayed(Duration(milliseconds: 4500), () => 'Async result');
 }
