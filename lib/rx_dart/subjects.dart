@@ -5,7 +5,9 @@ void behaviourSubjectExample() {
   subject.listen((item) => print(item));
   subject.stream;
 
-  subject.add("Item1");
+  final item1 = "Item1";
+
+  subject.add(item1);
   subject.add("Item2");
 
   subject.stream
@@ -13,6 +15,18 @@ void behaviourSubjectExample() {
       .listen((item) => print(item.toUpperCase()));
 
   subject.add("b Item3");
+}
+
+void behaviourSubjectDistinctExample() {
+  var subject = new BehaviorSubject<String>();
+  subject.distinct().asBroadcastStream().listen((item) => print(item));
+
+  final item1 = "Item1";
+
+  subject.add(item1);
+  subject.add(item1);
+  subject.add("Item2");
+  subject.add("Item2");
 }
 
 void publishSubjectExample() {
