@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0010fb-737e-4d32-a0a9-452af6a1756a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/data_structure/array_deque_like_java_hase.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data_structure/list_ex1.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_my_deque.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/algo/find_circle_road.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/algo/find_circle_road.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure/array_deque_like_java_hase.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure/array_deque_like_java_hase.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_my_deque.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_my_deque.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,43 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/reversed.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/simple_playground_test.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/clock_test.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_my_deque.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="59">
+              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
               <folding>
                 <element signature="e#0#82#0" expanded="true" />
               </folding>
@@ -65,38 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.2/lib/src/frontend/expect.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/data_structure/array_deque_like_java_hase.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../flutter/bin/cache/dart-sdk/lib/collection/queue.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../flutter/bin/cache/dart-sdk/lib/core/iterable.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="542" column="3" lean-forward="true" selection-start-line="542" selection-start-column="3" selection-end-line="542" selection-end-column="3" />
+            <state relative-caret-position="297">
+              <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -217,29 +153,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dart_playground_reactive" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Dart SDK" type="3dd79eb:DartTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="dart_playground_reactive" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Dart SDK" type="3dd79eb:DartTreeStructureProvider$1" />
-              <item name="collection" type="e6ad2126:DartTreeStructureProvider$DartSdkOrLibraryRootNode" />
-            </path>
-            <path>
-              <item name="dart_playground_reactive" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Dart SDK" type="3dd79eb:DartTreeStructureProvider$1" />
-              <item name="core" type="e6ad2126:DartTreeStructureProvider$DartSdkOrLibraryRootNode" />
-            </path>
-            <path>
-              <item name="dart_playground_reactive" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Dart SDK" type="3dd79eb:DartTreeStructureProvider$1" />
-              <item name="math" type="e6ad2126:DartTreeStructureProvider$DartSdkOrLibraryRootNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -251,7 +164,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558790523323" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558815664672" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -278,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Dart Test.tests in test_my_deque.dart">
+  <component name="RunManager" selected="Dart Test.add lasts and firsts and get the right one by index in test_my_deque.dart">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -295,26 +208,28 @@
       <option name="filePath" value="$PROJECT_DIR$/bin/main.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="getAngleBetweenArrows in clock_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/test/clock_test.dart" />
+    <configuration name="add firsts and get first added in test_my_deque.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/test_my_deque.dart" />
       <option name="scope" value="GROUP_OR_TEST_BY_NAME" />
-      <option name="testName" value="getAngleBetweenArrows" />
+      <option name="testName" value="add firsts and get first added" />
       <method v="2" />
     </configuration>
-    <configuration name="test grad minute arrow passed in clock_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/test/clock_test.dart" />
+    <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/test_my_deque.dart" />
       <option name="scope" value="GROUP_OR_TEST_BY_NAME" />
-      <option name="testName" value="test grad minute arrow passed" />
+      <option name="testName" value="add lasts and firsts and get the right one by index" />
       <method v="2" />
     </configuration>
-    <configuration name="tests in clock_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/test/clock_test.dart" />
-      <option name="testName" value="clock_test.dart" />
+    <configuration name="add lasts and get last added in test_my_deque.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/test_my_deque.dart" />
+      <option name="scope" value="GROUP_OR_TEST_BY_NAME" />
+      <option name="testName" value="add lasts and get last added" />
       <method v="2" />
     </configuration>
-    <configuration name="tests in reversed.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/test/reversed.dart" />
-      <option name="testName" value="reversed.dart" />
+    <configuration name="test length(), actual elems count/size in test_my_deque.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/test_my_deque.dart" />
+      <option name="scope" value="GROUP_OR_TEST_BY_NAME" />
+      <option name="testName" value="test length(), actual elems count/size" />
       <method v="2" />
     </configuration>
     <configuration name="tests in test_my_deque.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
@@ -349,19 +264,19 @@
     </configuration>
     <list>
       <item itemvalue="Dart Command Line App.Main" />
-      <item itemvalue="Dart Test.tests in clock_test.dart" />
-      <item itemvalue="Dart Test.test grad minute arrow passed in clock_test.dart" />
-      <item itemvalue="Dart Test.getAngleBetweenArrows in clock_test.dart" />
-      <item itemvalue="Dart Test.tests in reversed.dart" />
       <item itemvalue="Dart Test.tests in test_my_deque.dart" />
+      <item itemvalue="Dart Test.add lasts and firsts and get the right one by index in test_my_deque.dart" />
+      <item itemvalue="Dart Test.add firsts and get first added in test_my_deque.dart" />
+      <item itemvalue="Dart Test.add lasts and get last added in test_my_deque.dart" />
+      <item itemvalue="Dart Test.test length(), actual elems count/size in test_my_deque.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Test.add lasts and firsts and get the right one by index in test_my_deque.dart" />
+        <item itemvalue="Dart Test.test length(), actual elems count/size in test_my_deque.dart" />
+        <item itemvalue="Dart Test.add lasts and get last added in test_my_deque.dart" />
+        <item itemvalue="Dart Test.add firsts and get first added in test_my_deque.dart" />
         <item itemvalue="Dart Test.tests in test_my_deque.dart" />
-        <item itemvalue="Dart Test.getAngleBetweenArrows in clock_test.dart" />
-        <item itemvalue="Dart Test.tests in clock_test.dart" />
-        <item itemvalue="Dart Test.tests in reversed.dart" />
-        <item itemvalue="Dart Test.test grad minute arrow passed in clock_test.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -385,47 +300,48 @@
       <workItem from="1555447332331" duration="3686000" />
       <workItem from="1555502741335" duration="2571000" />
       <workItem from="1556222969787" duration="211000" />
-      <workItem from="1558778795922" duration="7645000" />
+      <workItem from="1558778795922" duration="17605000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="getAngleBetweenArrows_in_clock_test_dart - 2019.04.17 at 15h 09m 03s.xml">
-      <configuration name="getAngleBetweenArrows in clock_test.dart" configurationId="DartTestRunConfigurationType" />
+    <history-entry file="test_length(),_actual_elems_count_size_in_test_my_deque_dart - 2019.05.26 at 00h 16m 02s.xml">
+      <configuration name="test length(), actual elems count/size in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="getAngleBetweenArrows_in_clock_test_dart - 2019.04.17 at 15h 11m 48s.xml">
-      <configuration name="getAngleBetweenArrows in clock_test.dart" configurationId="DartTestRunConfigurationType" />
+    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 16m 24s.xml">
+      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="getAngleBetweenArrows_in_clock_test_dart - 2019.04.17 at 15h 12m 24s.xml">
-      <configuration name="getAngleBetweenArrows in clock_test.dart" configurationId="DartTestRunConfigurationType" />
+    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 17m 39s.xml">
+      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="getAngleBetweenArrows_in_clock_test_dart - 2019.04.17 at 15h 13m 39s.xml">
-      <configuration name="getAngleBetweenArrows in clock_test.dart" configurationId="DartTestRunConfigurationType" />
+    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 18m 31s.xml">
+      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="getAngleBetweenArrows_in_clock_test_dart - 2019.04.17 at 15h 14m 48s.xml">
-      <configuration name="getAngleBetweenArrows in clock_test.dart" configurationId="DartTestRunConfigurationType" />
+    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 19m 51s.xml">
+      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="getAngleBetweenArrows_in_clock_test_dart - 2019.04.18 at 01h 36m 49s.xml">
-      <configuration name="getAngleBetweenArrows in clock_test.dart" configurationId="DartTestRunConfigurationType" />
+    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 20m 50s.xml">
+      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests_in_test_my_deque_dart - 2019.05.25 at 16h 23m 46s.xml">
-      <configuration name="tests in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
+    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 21m 18s.xml">
+      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests_in_test_my_deque_dart - 2019.05.25 at 16h 25m 11s.xml">
-      <configuration name="tests in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
+    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 28m 00s.xml">
+      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests_in_test_my_deque_dart - 2019.05.25 at 16h 25m 44s.xml">
-      <configuration name="tests in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
+    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 28m 36s.xml">
+      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="tests_in_test_my_deque_dart - 2019.05.25 at 16h 26m 51s.xml">
-      <configuration name="tests in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
+    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 29m 32s.xml">
+      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19545000" />
+    <option name="totallyTimeSpent" value="29505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28745928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -436,17 +352,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35021096" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24472573" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32770744" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Dart Analysis" order="12" weight="0.32937366" />
+      <window_info anchor="bottom" id="Dart Analysis" order="12" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32876712" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -602,33 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/reversed.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/simple_playground_test.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/clock_test.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/data_structure/list_ex1.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -650,17 +539,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/clock_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/simple_playground_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/reversed.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../flutter/bin/cache/dart-sdk/lib/core/errors.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="205" column="6" selection-start-line="205" selection-start-column="6" selection-end-line="205" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.2/lib/src/frontend/throws_matcher.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/test_api-0.2.2/lib/src/frontend/expect.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        <state relative-caret-position="194">
+          <caret line="159" column="29" selection-start-line="159" selection-start-column="29" selection-end-line="159" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_my_deque.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="59">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           <folding>
             <element signature="e#0#82#0" expanded="true" />
           </folding>
@@ -669,8 +599,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/data_structure/array_deque_like_java_hase.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="297">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
         </state>
       </provider>
     </entry>
