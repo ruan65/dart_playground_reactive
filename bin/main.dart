@@ -11,6 +11,7 @@ void main() {
 List<Road> input1 = [
   Road('m', 'y'),
   Road('mu', 'y'),
+  Road('mu', 'nord_pole'),
   Road('m', 'my'),
   Road('y', 'r'),
   Road('r', 's'),

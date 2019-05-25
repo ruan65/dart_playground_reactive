@@ -36,7 +36,7 @@ bool _isRoadDeadEnd(Road road, Set<String> deadEndCities) =>
 
 Set<String> _getDeadEndCities(List<Road> input) {
   Set<String> result = Set();
-  final map = _getAllCitiesMapOccurrences(input);
+  final map = _getAllCitiesOccurrences(input);
   map.keys.forEach((k) {
 
     if (map[k] == 1) {
@@ -46,7 +46,7 @@ Set<String> _getDeadEndCities(List<Road> input) {
   return result;
 }
 
-Map<String, int> _getAllCitiesMapOccurrences(List<Road> input) {
+Map<String, int> _getAllCitiesOccurrences(List<Road> input) {
   Map<String, int> map = {};
 
   for (Road r in input) {
