@@ -9,7 +9,7 @@ void main() {
 //  print(findCircularRoad(input3));
 //  print(findCircularRoad(input4));
 
-  startIsolate();
+  isolateExample();
 }
 
 List<Road> input1 = [

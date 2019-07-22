@@ -14,6 +14,14 @@ void startIsolate() async {
   });
 }
 
+void stopIsolate() {
+  if(null != isolate) {
+    stdout.writeln('killing isolate');
+    isolate.kill(priority: Isolate.immediate);
+    isolate = null;
+  }
+}
+
 
 void runTimer(SendPort sendPort) {
 
@@ -25,4 +33,20 @@ void runTimer(SendPort sendPort) {
 
     sendPort.send(msg);
   });
+}
+
+void isolateExample() async {
+  stdout.writeln('spawing isolate....');
+
+  await startIsolate();
+
+  print('press enter to quit.....');
+
+  await stdin.first;
+
+  stopIsolate();
+
+  print('Goodbye!');
+
+  exit(0);
 }
