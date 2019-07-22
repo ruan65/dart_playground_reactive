@@ -1,11 +1,15 @@
 import 'package:simple_playground/algo/find_circle_road.dart';
 
+import '../lib/isolate/isolate_ex1.dart';
+
 
 void main() {
-  print(findCircularRoad(input1));
-  print(findCircularRoad(input2));
-  print(findCircularRoad(input3));
-  print(findCircularRoad(input4));
+//  print(findCircularRoad(input1));
+//  print(findCircularRoad(input2));
+//  print(findCircularRoad(input3));
+//  print(findCircularRoad(input4));
+
+  startIsolate();
 }
 
 List<Road> input1 = [
