@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd0010fb-737e-4d32-a0a9-452af6a1756a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/generators.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/algo/bubble_sort.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/async/async1.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sorting/bubble_sort.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sorting/dummy_sort.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sorting/selection_sort.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/selection_sort_test.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,39 +33,35 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558815664672" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/streams" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Dart Command Line App.Main">
+  <component name="RunManager" selected="Dart Command Line App.selection_sort.dart">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -80,33 +78,31 @@
       <option name="filePath" value="$PROJECT_DIR$/lib/generators.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="add firsts and get first added in test_my_deque.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/test/test_my_deque.dart" />
-      <option name="scope" value="GROUP_OR_TEST_BY_NAME" />
-      <option name="testName" value="add firsts and get first added" />
+    <configuration name="bubble_sort.dart (1)" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/sorting/bubble_sort.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/test/test_my_deque.dart" />
-      <option name="scope" value="GROUP_OR_TEST_BY_NAME" />
-      <option name="testName" value="add lasts and firsts and get the right one by index" />
+    <configuration name="main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/main.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="add lasts and get last added in test_my_deque.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/test/test_my_deque.dart" />
-      <option name="scope" value="GROUP_OR_TEST_BY_NAME" />
-      <option name="testName" value="add lasts and get last added" />
+    <configuration name="selection_sort.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/sorting/selection_sort.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="test length(), actual elems count/size in test_my_deque.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/test/test_my_deque.dart" />
+    <configuration name="find minimum index test in selection_sort_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/selection_sort_test.dart" />
       <option name="scope" value="GROUP_OR_TEST_BY_NAME" />
-      <option name="testName" value="test length(), actual elems count/size" />
+      <option name="testName" value="find minimum index test" />
       <method v="2" />
     </configuration>
-    <configuration name="tests in test_my_deque.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/test/test_my_deque.dart" />
-      <option name="testName" value="test_my_deque.dart" />
+    <configuration name="swap in selection_sort_test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/selection_sort_test.dart" />
+      <option name="scope" value="GROUP_OR_TEST_BY_NAME" />
+      <option name="testName" value="swap" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -136,21 +132,33 @@
     </configuration>
     <list>
       <item itemvalue="Dart Command Line App.Main" />
-      <item itemvalue="Dart Test.tests in test_my_deque.dart" />
-      <item itemvalue="Dart Test.add lasts and firsts and get the right one by index in test_my_deque.dart" />
-      <item itemvalue="Dart Test.add firsts and get first added in test_my_deque.dart" />
-      <item itemvalue="Dart Test.add lasts and get last added in test_my_deque.dart" />
-      <item itemvalue="Dart Test.test length(), actual elems count/size in test_my_deque.dart" />
+      <item itemvalue="Dart Command Line App.main.dart" />
+      <item itemvalue="Dart Command Line App.bubble_sort.dart (1)" />
+      <item itemvalue="Dart Command Line App.selection_sort.dart" />
+      <item itemvalue="Dart Test.find minimum index test in selection_sort_test.dart" />
+      <item itemvalue="Dart Test.swap in selection_sort_test.dart" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Test.add lasts and firsts and get the right one by index in test_my_deque.dart" />
-        <item itemvalue="Dart Test.test length(), actual elems count/size in test_my_deque.dart" />
-        <item itemvalue="Dart Test.add lasts and get last added in test_my_deque.dart" />
-        <item itemvalue="Dart Test.add firsts and get first added in test_my_deque.dart" />
-        <item itemvalue="Dart Test.tests in test_my_deque.dart" />
+        <item itemvalue="Dart Command Line App.selection_sort.dart" />
+        <item itemvalue="Dart Test.swap in selection_sort_test.dart" />
+        <item itemvalue="Dart Test.find minimum index test in selection_sort_test.dart" />
+        <item itemvalue="Dart Command Line App.bubble_sort.dart (1)" />
+        <item itemvalue="Dart Command Line App.main.dart" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -174,43 +182,13 @@
       <workItem from="1556222969787" duration="211000" />
       <workItem from="1558778795922" duration="17605000" />
       <workItem from="1563801162004" duration="1313000" />
+      <workItem from="1585778852107" duration="2570000" />
+      <workItem from="1585909199739" duration="17000" />
+      <workItem from="1587593912472" duration="605000" />
+      <workItem from="1587679609586" duration="3971000" />
+      <workItem from="1587756406416" duration="9131000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="test_length(),_actual_elems_count_size_in_test_my_deque_dart - 2019.05.26 at 00h 16m 02s.xml">
-      <configuration name="test length(), actual elems count/size in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 16m 24s.xml">
-      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 17m 39s.xml">
-      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 18m 31s.xml">
-      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 19m 51s.xml">
-      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 20m 50s.xml">
-      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 21m 18s.xml">
-      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 28m 00s.xml">
-      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 28m 36s.xml">
-      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="add_lasts_and_firsts_and_get_the_right_one_by_index_in_test_my_deque_dart - 2019.05.26 at 00h 29m 32s.xml">
-      <configuration name="add lasts and firsts and get the right one by index in test_my_deque.dart" configurationId="DartTestRunConfigurationType" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30818000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -220,11 +198,45 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1624" height="299" key="GridCell.Tab.0.bottom" timestamp="1587815468942">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1624" height="299" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1587815468942" />
+    <state width="827" height="542" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587769116793" />
+    <state width="1624" height="299" key="GridCell.Tab.0.center" timestamp="1587815468941">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1624" height="299" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1587815468941" />
+    <state width="827" height="542" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587769116792" />
+    <state width="1624" height="299" key="GridCell.Tab.0.left" timestamp="1587815468940">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1624" height="299" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1587815468940" />
+    <state width="827" height="542" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587769116792" />
+    <state width="1624" height="299" key="GridCell.Tab.0.right" timestamp="1587815468941">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1624" height="299" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1587815468941" />
+    <state width="827" height="542" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587769116793" />
+    <state width="625" height="512" key="SwitcherDM" timestamp="1587813505503">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="625" height="512" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1587813505503" />
+    <state width="625" height="500" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1585779746260" />
+    <state x="620" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1587756448840">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="620" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587756448840" />
+    <state x="620" y="333" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1585909201652" />
   </component>
   <component name="masterDetails">
     <states>
