@@ -18,9 +18,9 @@ int findIndexOfMinimum(List<int> input) {
 }
 
 swap(int i, int j, List<int> input) {
-  var tmp = input[i];
-  input[i] = input[j];
-  input[j] = tmp;
+  input[i] = input[i] ^ input[j];
+  input[j] = input[i] ^ input[j];
+  input[i] = input[i] ^ input[j];
 }
 
 selectionSort(List<int> input) {
