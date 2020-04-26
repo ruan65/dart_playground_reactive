@@ -1,12 +1,8 @@
 List<int> mergeSort(List<int> array) {
   if (array.isEmpty || array.length == 1) return array;
-  List<int> left = [], right = [];
-
-  left = array.sublist(0, array.length ~/ 2);
-  right = array.sublist(array.length ~/ 2);
-  left = mergeSort(left);
-  right = mergeSort(right);
-  return merge(left, right);
+  List<int> left = array.sublist(0, array.length ~/ 2);
+  List<int> right = array.sublist(array.length ~/ 2);
+  return merge(mergeSort(left), mergeSort(right));
 }
 
 List<int> merge(List<int> first, List<int> second) {
